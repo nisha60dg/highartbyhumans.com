@@ -1,0 +1,370 @@
+0000.006 (0) Opened log file at time: Thu, 18 Jan 2024 23:16:51 +0000 on https://highartbyhumans.com
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.3 WP: 6.4.2 PHP: 8.2.5 (apache2handler, Linux hn145.greenhost.nl 5.15.54 #1 SMP Thu Jul 14 08:45:32 UTC 2022 x86_64) MySQL: 10.6.15-MariaDB-1:10.6.15+maria~deb10-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3M | 10M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 130136 MB
+0000.115 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.116 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.122 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1705534143, seconds_ago=85668)
+0000.125 (0) Set semaphore last lock (fd) time to 2024-01-18 23:16:51
+0000.125 (0) Semaphore lock (fd) complete
+0000.129 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus::$last_successful_resumption is deprecated (line 2248, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.131 (0) Backup run: resumption=0, nonce=7c984aa03b69, file_nonce=7c984aa03b69 begun at=1705619811 (0s ago), job type=backup
+0000.132 (0) Scheduling a resumption (1) after 300 seconds (1705620111) in case this run gets aborted
+0000.135 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$updraft_dir_realpath is deprecated (line 113, wp-content/plugins/updraftplus/backup.php)
+0000.137 (0) Checking if we have a zip executable available
+0000.138 (0) Testing: /usr/bin/zip
+0000.169 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.171 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.172 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.173 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.173 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.189 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.190 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.196 (0) Working binary zip found: /usr/bin/zip
+0000.198 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.199 (0) Creation of backups of directories: beginning
+0000.204 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$first_linked_index is deprecated (line 217, wp-content/plugins/updraftplus/backup.php)
+0000.205 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.209 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$zip_microtime_start is deprecated (line 304, wp-content/plugins/updraftplus/backup.php)
+0000.210 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$make_zipfile_source is deprecated (line 3263, wp-content/plugins/updraftplus/backup.php)
+0000.211 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$existing_files is deprecated (line 3265, wp-content/plugins/updraftplus/backup.php)
+0000.211 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$existing_files_rawsize is deprecated (line 3267, wp-content/plugins/updraftplus/backup.php)
+0000.212 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$existing_zipfiles_size is deprecated (line 3268, wp-content/plugins/updraftplus/backup.php)
+0000.212 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$source is deprecated (line 3342, wp-content/plugins/updraftplus/backup.php)
+0000.213 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$makezip_recursive_batchedbytes is deprecated (line 3345, wp-content/plugins/updraftplus/backup.php)
+0000.214 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$excluded_prefixes is deprecated (line 3423, wp-content/plugins/updraftplus/backup.php)
+0000.214 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$excluded_wildcards is deprecated (line 3424, wp-content/plugins/updraftplus/backup.php)
+0002.999 (0) Total entities for the zip file: 579 directories, 2977 files (0 skipped as non-modified), 57.9 MB
+0003.001 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.037 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: size is now: 0.10 MB
+0003.074 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 100 files added (on-disk size: 131.4 KB)
+0003.114 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 200 files added (on-disk size: 131.4 KB)
+0003.151 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 300 files added (on-disk size: 131.4 KB)
+0003.187 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 400 files added (on-disk size: 131.4 KB)
+0003.224 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 500 files added (on-disk size: 131.4 KB)
+0003.261 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 600 files added (on-disk size: 131.4 KB)
+0003.296 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 700 files added (on-disk size: 131.4 KB)
+0003.334 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 800 files added (on-disk size: 131.4 KB)
+0003.372 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 900 files added (on-disk size: 131.4 KB)
+0003.408 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 1000 files added (on-disk size: 131.4 KB)
+0003.410 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.5 MB, 2977 files batched, 1001 (1002) added so far); re-opening (prior size: 131.4 KB)
+0007.044 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: size is now: 5.70 MB
+0007.106 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 1100 files added (on-disk size: 5828.8 KB)
+0007.168 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 1200 files added (on-disk size: 5828.8 KB)
+0007.230 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 1300 files added (on-disk size: 5828.8 KB)
+0007.292 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 1400 files added (on-disk size: 5828.8 KB)
+0007.353 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 1500 files added (on-disk size: 5828.8 KB)
+0007.414 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 1600 files added (on-disk size: 5828.8 KB)
+0007.479 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 1700 files added (on-disk size: 5828.8 KB)
+0007.541 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 1800 files added (on-disk size: 5828.8 KB)
+0007.605 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 1900 files added (on-disk size: 5828.8 KB)
+0007.665 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 2000 files added (on-disk size: 5828.8 KB)
+0007.667 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.7 MB, 2977 files batched, 1001 (2003) added so far); re-opening (prior size: 5828.8 KB)
+0010.266 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: size is now: 7.80 MB
+0010.335 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 2100 files added (on-disk size: 7943.5 KB)
+0010.404 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 2200 files added (on-disk size: 7943.5 KB)
+0010.489 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 2300 files added (on-disk size: 7943.5 KB)
+0010.558 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 2400 files added (on-disk size: 7943.5 KB)
+0010.599 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 2977 files batched, 456 (2459) added so far); re-opening (prior size: 7943.5 KB)
+0013.056 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: size is now: 14.10 MB
+0013.058 (0) A useful amount of data was added after this amount of zip processing: 3.7 s (normalised: 3.6 s, rate: 7112.8 KB/s)
+0013.059 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.651869058609, normalised_time=3.5991414929491, max_time=13.052624940872, data points known=1, old_max_bytes=26214400, new_max_bytes=57041391)
+0013.083 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 2500 files added (on-disk size: 14432.5 KB)
+0013.134 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 2600 files added (on-disk size: 14432.5 KB)
+0013.172 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 2700 files added (on-disk size: 14432.5 KB)
+0013.211 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 2800 files added (on-disk size: 14432.5 KB)
+0013.247 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.tmp: 2900 files added (on-disk size: 14432.5 KB)
+0014.898 (0) Creating zip file manifest (/domains/highartbyhumans.com/DEFAULT/wp-content/updraft/backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.list-temp.tmp)
+0014.906 (0) Successfully created zip file manifest (size: 251093)
+0015.150 (0) Created plugins zip (0) - 16795.7 KB in 14.9 s (1124.2 KB/s) (sha1: 9e0f216f2735c2513806250e27b9ce4a23c1831c, sha256: f8e925f7e9ba42fc9a3c1e3d89bfdde6f0fcf18e4f2ac91311b6c415a77de53c)
+0015.157 (0) Beginning creation of dump of themes (split every: 400 MB)
+0015.802 (0) Total entities for the zip file: 125 directories, 615 files (0 skipped as non-modified), 16.4 MB
+0015.838 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.873 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.907 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.941 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0015.976 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0016.010 (0) Zip: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0017.905 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip.tmp: size is now: 13.30 MB
+0017.914 (0) Creating zip file manifest (/domains/highartbyhumans.com/DEFAULT/wp-content/updraft/backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip.list-temp.tmp)
+0017.917 (0) Successfully created zip file manifest (size: 41922)
+0018.084 (0) Created themes zip (0) - 13605.4 KB in 2.9 s (4655.7 KB/s) (sha1: 67baaf6f3853dd1c746a8383b02e5f2e4d4c4c14, sha256: 301e1caa07b80b9c7525654fb12690d5c559635e90191b08a758c0ddcf1c0fc1)
+0018.091 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0018.092 (0) Looking for candidates to backup in: /domains/highartbyhumans.com/DEFAULT/wp-content/uploads
+0018.098 (0) finding files: .htaccess: adding to list (1)
+0018.099 (0) finding files: 2022: adding to list (2)
+0018.100 (0) finding files: wp-file-manager-pro: adding to list (3)
+0018.100 (0) finding files: elementor: adding to list (4)
+0018.101 (0) finding files: 2023: adding to list (5)
+0018.101 (0) finding files: 2024: adding to list (6)
+0018.102 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0018.191 (0) Total entities for the zip file: 32 directories, 26 files (0 skipped as non-modified), 1.5 MB
+0018.346 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-uploads.zip.tmp: size is now: 1.50 MB
+0018.351 (0) Creating zip file manifest (/domains/highartbyhumans.com/DEFAULT/wp-content/updraft/backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-uploads.zip.list-temp.tmp)
+0018.352 (0) Successfully created zip file manifest (size: 1418)
+0018.376 (0) Created uploads zip (0) - 1491.8 KB in 0.3 s (5534.5 KB/s) (sha1: 5c2ede5b6691e613ba7205cfc2c67e7e8db1909c, sha256: d83974d341e99ed4cb3febc04944e88e24e6729d855cf5435c46099fb1e7810f)
+0018.382 (0) Beginning backup of other directories found in the content directory (index: 0)
+0018.383 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0018.384 (0) Looking for candidates to backup in: /domains/highartbyhumans.com/DEFAULT/wp-content
+0018.386 (0) finding files: themes: skipping: this is the themes directory
+0018.387 (0) finding files: index.php: adding to list (1)
+0018.388 (0) finding files: plugins: skipping: this is the plugins directory
+0018.388 (0) finding files: uploads: skipping: this is the uploads directory
+0018.389 (0) finding files: upgrade: skipping: excluded by options
+0018.389 (0) finding files: aiowps_backups: skipping: excluded by options (glob)
+0018.390 (0) finding files: updraft: skipping: this is the updraft directory
+0018.396 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0018.414 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-others.zip.tmp: size is now: 0.00 MB
+0018.418 (0) Creating zip file manifest (/domains/highartbyhumans.com/DEFAULT/wp-content/updraft/backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-others.zip.list-temp.tmp)
+0018.420 (0) Successfully created zip file manifest (size: 43)
+0018.423 (0) Created others zip (0) - 0.2 KB in 0 s (6.5 KB/s) (sha1: c6c166ae206bf6f91ac8e454fe500ba0c61e7f5d, sha256: f324cf69a487683dffb70665ca4bae93f203b9ea23cae713a511f0de120696d9)
+0018.432 (0) Saving backup status to database (elements: 8)
+0018.434 (0) Beginning creation of database dump (WordPress DB)
+0018.435 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$whichdb is deprecated (line 1487, wp-content/plugins/updraftplus/backup.php)
+0018.435 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$whichdb_suffix is deprecated (line 1488, wp-content/plugins/updraftplus/backup.php)
+0018.436 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$dbinfo is deprecated (line 1516, wp-content/plugins/updraftplus/backup.php)
+0018.437 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0018.440 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0018.549 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `awslr_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\n (truncated - 1466 bytes total)
+0018.550 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0018.559 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$duplicate_tables_exist is deprecated (line 1577, wp-content/plugins/updraftplus/backup.php)
+0018.582 (0) Table awslr_options: Total expected rows (via COUNT): 322
+0018.583 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.606 (0) Table awslr_options: Rows added in this batch (next record: 59654): 318 (uncompressed bytes in this segment=651094) in 0.04 seconds
+0018.614 (0) Table awslr_options: finishing file(s) (2, 65 KB)
+0018.620 (0) Table awslr_users: Total expected rows (via COUNT): 1
+0018.620 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.623 (0) Table awslr_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1188) in 0.01 seconds
+0018.630 (0) Table awslr_users: finishing file(s) (2, 0.6 KB)
+0018.637 (0) Table awslr_usermeta: Total expected rows (via COUNT): 25
+0018.637 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.639 (0) Table awslr_usermeta: Rows added in this batch (next record: 26): 25 (uncompressed bytes in this segment=2108) in 0.01 seconds
+0018.648 (0) Table awslr_usermeta: finishing file(s) (2, 1.1 KB)
+0018.659 (0) Table awslr_commentmeta: Total expected rows (via COUNT): 0
+0018.661 (0) Table awslr_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=648) in 0.01 seconds
+0018.668 (0) Table awslr_commentmeta: finishing file(s) (2, 0.4 KB)
+0018.679 (0) Table awslr_comments: Total expected rows (via COUNT): 15
+0018.680 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.683 (0) Table awslr_comments: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=9447) in 0.01 seconds
+0018.689 (0) Table awslr_comments: finishing file(s) (2, 3.3 KB)
+0018.699 (0) Table awslr_links: Total expected rows (via COUNT): 0
+0018.701 (0) Table awslr_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1041) in 0.00 seconds
+0018.707 (0) Table awslr_links: finishing file(s) (2, 0.5 KB)
+0018.716 (0) Table awslr_postmeta: Total expected rows (via COUNT): 873
+0018.717 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.736 (0) Table awslr_postmeta: Rows added in this batch (next record: 1135): 873 (uncompressed bytes in this segment=284256) in 0.03 seconds
+0018.743 (0) Table awslr_postmeta: finishing file(s) (2, 14.5 KB)
+0018.753 (0) Table awslr_posts: Total expected rows (via COUNT): 156
+0018.753 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.762 (0) Table awslr_posts: Rows added in this batch (next record: 192): 156 (uncompressed bytes in this segment=182066) in 0.02 seconds
+0018.769 (0) Table awslr_posts: finishing file(s) (2, 8.5 KB)
+0018.773 (0) Table awslr_term_relationships: Total expected rows (approximate): 11
+0018.776 (0) Table awslr_term_relationships: Rows added in this batch (next record: 100000): 11 (uncompressed bytes in this segment=844) in 0.00 seconds
+0018.781 (0) Table awslr_term_relationships: finishing file(s) (2, 0.4 KB)
+0018.787 (0) Table awslr_term_taxonomy: Total expected rows (via COUNT): 4
+0018.788 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.790 (0) Table awslr_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=982) in 0.01 seconds
+0018.797 (0) Table awslr_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0018.806 (0) Table awslr_termmeta: Total expected rows (via COUNT): 0
+0018.808 (0) Table awslr_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=621) in 0.00 seconds
+0018.815 (0) Table awslr_termmeta: finishing file(s) (2, 0.4 KB)
+0018.820 (0) Table awslr_terms: Total expected rows (via COUNT): 4
+0018.821 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.823 (0) Table awslr_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=800) in 0.00 seconds
+0018.829 (0) Table awslr_terms: finishing file(s) (2, 0.5 KB)
+0018.837 (0) Table awslr_aiowps_debug_log: Total expected rows (via COUNT): 0
+0018.839 (0) Table awslr_aiowps_debug_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.00 seconds
+0018.845 (0) Table awslr_aiowps_debug_log: finishing file(s) (2, 0.4 KB)
+0018.854 (0) Table awslr_aiowps_events: Total expected rows (via COUNT): 0
+0018.855 (0) Table awslr_aiowps_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=829) in 0.00 seconds
+0018.861 (0) Table awslr_aiowps_events: finishing file(s) (2, 0.4 KB)
+0018.867 (0) Table awslr_aiowps_failed_logins: Total expected rows (approximate): 25602
+0018.989 (0) Table awslr_aiowps_failed_logins: binary mysqldump finished (writes: 32, bytes 1451319, return code 0) in 0.12 seconds
+0018.994 (0) Table awslr_aiowps_failed_logins: finishing file(s) (1, 290 KB)
+0019.005 (0) Table awslr_aiowps_global_meta: Total expected rows (via COUNT): 0
+0019.008 (0) Table awslr_aiowps_global_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=896) in 0.01 seconds
+0019.015 (0) Table awslr_aiowps_global_meta: finishing file(s) (2, 0.4 KB)
+0019.024 (0) Table awslr_aiowps_login_activity: Total expected rows (via COUNT): 8
+0019.025 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.028 (0) Table awslr_aiowps_login_activity: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1638) in 0.01 seconds
+0019.034 (0) Table awslr_aiowps_login_activity: finishing file(s) (2, 0.6 KB)
+0019.040 (0) Table awslr_aiowps_login_lockdown: Total expected rows (approximate): 29360
+0019.210 (0) Table awslr_aiowps_login_lockdown: binary mysqldump finished (writes: 36, bytes 2773244, return code 0) in 0.17 seconds
+0019.215 (0) Table awslr_aiowps_login_lockdown: finishing file(s) (1, 440.7 KB)
+0019.221 (0) Table awslr_aiowps_permanent_block: Total expected rows (via COUNT): 0
+0019.224 (0) Table awslr_aiowps_permanent_block: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=752) in 0.01 seconds
+0019.231 (0) Table awslr_aiowps_permanent_block: finishing file(s) (2, 0.4 KB)
+0019.242 (0) Table awslr_wpfm_backup: Total expected rows (via COUNT): 0
+0019.243 (0) Table awslr_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=492) in 0.00 seconds
+0019.249 (0) Table awslr_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0019.251 (0) PHP event: code E_WARNING: filemtime(): stat failed for /domains/highartbyhumans.com/DEFAULT/wp-content/updraft/backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db.gz (line 1836, wp-content/plugins/updraftplus/backup.php)
+0019.254 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_options.table.tmpr59655.gz (1/20/fopen): adding to final database dump
+0019.256 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_options.table.gz (2/20/fopen): adding to final database dump
+0019.257 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_users.table.tmpr2.gz (3/20/fopen): adding to final database dump
+0019.259 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_users.table.gz (4/20/fopen): adding to final database dump
+0019.260 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_usermeta.table.tmpr27.gz (5/20/fopen): adding to final database dump
+0019.261 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_usermeta.table.gz (6/20/fopen): adding to final database dump
+0019.262 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_commentmeta.table.tmpr0.gz (7/20/fopen): adding to final database dump
+0019.263 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_commentmeta.table.gz (8/20/fopen): adding to final database dump
+0019.264 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_comments.table.tmpr16.gz (9/20/fopen): adding to final database dump
+0019.266 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_comments.table.gz (10/20/fopen): adding to final database dump
+0019.267 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_links.table.tmpr0.gz (11/20/fopen): adding to final database dump
+0019.269 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_links.table.gz (12/20/fopen): adding to final database dump
+0019.270 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_postmeta.table.tmpr1136.gz (13/20/fopen): adding to final database dump
+0019.272 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_postmeta.table.gz (14/20/fopen): adding to final database dump
+0019.272 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_posts.table.tmpr193.gz (15/20/fopen): adding to final database dump
+0019.274 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_posts.table.gz (16/20/fopen): adding to final database dump
+0019.275 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_term_relationships.table.tmpr100001.gz (17/20/fopen): adding to final database dump
+0019.277 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_term_relationships.table.gz (18/20/fopen): adding to final database dump
+0019.278 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_term_taxonomy.table.tmpr5.gz (19/20/fopen): adding to final database dump
+0019.280 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_term_taxonomy.table.gz (20/20/fopen): adding to final database dump
+0019.281 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_termmeta.table.tmpr0.gz (21/20/fopen): adding to final database dump
+0019.282 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_termmeta.table.gz (22/20/fopen): adding to final database dump
+0019.283 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_terms.table.tmpr5.gz (23/20/fopen): adding to final database dump
+0019.285 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_terms.table.gz (24/20/fopen): adding to final database dump
+0019.286 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_aiowps_debug_log.table.tmpr0.gz (25/20/fopen): adding to final database dump
+0019.287 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_aiowps_debug_log.table.gz (26/20/fopen): adding to final database dump
+0019.288 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_aiowps_events.table.tmpr0.gz (27/20/fopen): adding to final database dump
+0019.289 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_aiowps_events.table.gz (28/20/fopen): adding to final database dump
+0019.290 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_aiowps_failed_logins.table.gz (29/20/fopen): adding to final database dump
+0019.294 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_aiowps_global_meta.table.tmpr0.gz (30/20/fopen): adding to final database dump
+0019.296 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_aiowps_global_meta.table.gz (31/20/fopen): adding to final database dump
+0019.297 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_aiowps_login_activity.table.tmpr9.gz (32/20/fopen): adding to final database dump
+0019.299 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_aiowps_login_activity.table.gz (33/20/fopen): adding to final database dump
+0019.299 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_aiowps_login_lockdown.table.gz (34/20/fopen): adding to final database dump
+0019.304 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_aiowps_permanent_block.table.tmpr0.gz (35/20/fopen): adding to final database dump
+0019.305 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_aiowps_permanent_block.table.gz (36/20/fopen): adding to final database dump
+0019.306 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_wpfm_backup.table.tmpr0.gz (37/20/fopen): adding to final database dump
+0019.307 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db-table-awslr_wpfm_backup.table.gz (38/20/fopen): adding to final database dump
+0019.316 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db.gz: finished writing out complete database file (829 KB)
+0019.345 (0) Total database tables backed up: 20 (backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db.gz, size: 848972, sha1: 46725f39e34e19043764490e76d6de8383fabc0f, sha256: 3bd2d8035210c3bbbe12f53830cdea9ded98a4c3f1b7ebd2c3eded4369258cbd)
+0019.350 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2752, wp-content/plugins/updraftplus/backup.php)
+0019.352 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0019.353 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0019.353 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0019.354 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-others.zip: others: This file has not yet been successfully uploaded: will queue
+0019.354 (0) backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db.gz: db: This file has not yet been successfully uploaded: will queue
+0019.355 (0) Saving backup history. Total backup size: 32 MB
+0019.358 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus::$error_count_before_cloud_backup is deprecated (line 2636, wp-content/plugins/updraftplus/class-updraftplus.php)
+0019.359 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0019.361 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$current_service is deprecated (line 450, wp-content/plugins/updraftplus/backup.php)
+0019.362 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0019.363 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$current_instance is deprecated (line 488, wp-content/plugins/updraftplus/backup.php)
+0019.363 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-295977747835cadff1af8d090982a5de)
+0019.577 (0) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 249, wp-content/plugins/updraftplus/includes/Google/Model.php)
+0019.578 (0) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 254, wp-content/plugins/updraftplus/includes/Google/Model.php)
+0019.579 (0) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 261, wp-content/plugins/updraftplus/includes/Google/Model.php)
+0019.580 (0) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 271, wp-content/plugins/updraftplus/includes/Google/Model.php)
+0019.580 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 24, wp-content/plugins/updraftplus/includes/Google/Collection.php)
+0019.581 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 40, wp-content/plugins/updraftplus/includes/Google/Collection.php)
+0019.581 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 32, wp-content/plugins/updraftplus/includes/Google/Collection.php)
+0019.582 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 45, wp-content/plugins/updraftplus/includes/Google/Collection.php)
+0019.583 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 16, wp-content/plugins/updraftplus/includes/Google/Collection.php)
+0019.584 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 51, wp-content/plugins/updraftplus/includes/Google/Collection.php)
+0019.584 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0020.276 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_googledrive::$root_id is deprecated (line 106, wp-content/plugins/updraftplus/methods/googledrive.php)
+0020.868 (0) Google Drive: quota usage: used=1739.9 MB, total=102400 MB, available=100660.1 MB
+0020.869 (0) Google Drive: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+0020.870 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0020.871 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, wp-content/plugins/updraftplus/includes/google-extensions.php)
+0021.188 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0021.303 (0) Googledrive chunked upload: 6.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 3.2 / 12)
+0021.313 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0021.434 (0) Googledrive chunked upload: 18.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 3.2 / 12)
+0021.451 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0021.623 (0) Googledrive chunked upload: 42.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 3.2 / 12)
+0021.655 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0021.817 (0) Googledrive chunked upload: 91.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 3.2 / 12)
+0021.824 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0023.375 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0023.378 (0) Google Drive: OK: Archive backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip uploaded in 2.51 seconds
+0023.379 (0) Recording as successfully uploaded: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip
+0023.383 (0) Deleting local file: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip: OK
+0023.384 (0) Deleting zip manifest (backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-plugins.zip.list.tmp)
+0023.731 (0) Google Drive: quota usage: used=1739.9 MB, total=102400 MB, available=100660.1 MB
+0023.732 (0) Google Drive: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+0023.733 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0023.734 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, wp-content/plugins/updraftplus/includes/google-extensions.php)
+0024.076 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0024.218 (0) Googledrive chunked upload: 7.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 3.2 / 12)
+0024.227 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0024.349 (0) Googledrive chunked upload: 22.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 3.2 / 12)
+0024.366 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0024.542 (0) Googledrive chunked upload: 52.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 3.2 / 12)
+0024.566 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0025.652 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0025.656 (0) Google Drive: OK: Archive backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip uploaded in 1.92 seconds
+0025.656 (0) Recording as successfully uploaded: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip
+0025.661 (0) Deleting local file: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip: OK
+0025.662 (0) Deleting zip manifest (backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-themes.zip.list.tmp)
+0025.937 (0) Google Drive: quota usage: used=1769.6 MB, total=102400 MB, available=100630.4 MB
+0025.938 (0) Google Drive: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-uploads.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+0025.939 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0025.940 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, wp-content/plugins/updraftplus/includes/google-extensions.php)
+0026.307 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0026.410 (0) Googledrive chunked upload: 68.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 3.2 / 12)
+0026.413 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0027.517 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0027.520 (0) Google Drive: OK: Archive backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-uploads.zip uploaded in 1.58 seconds
+0027.521 (0) Recording as successfully uploaded: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-uploads.zip
+0027.524 (0) Deleting local file: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-uploads.zip: OK
+0027.525 (0) Deleting zip manifest (backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-uploads.zip.list.tmp)
+0027.971 (0) Google Drive: quota usage: used=1771 MB, total=102400 MB, available=100629 MB
+0027.972 (0) Google Drive: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-others.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+0027.973 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0027.974 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, wp-content/plugins/updraftplus/includes/google-extensions.php)
+0028.366 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0029.512 (0) Googledrive chunked upload: 100 % uploaded
+0029.515 (0) Google Drive: OK: Archive backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-others.zip uploaded in 1.54 seconds
+0029.515 (0) Recording as successfully uploaded: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-others.zip
+0029.517 (0) Deleting local file: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-others.zip: OK
+0029.518 (0) Deleting zip manifest (backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-others.zip.list.tmp)
+0029.917 (0) Google Drive: quota usage: used=1771 MB, total=102400 MB, available=100629 MB
+0029.919 (0) Google Drive: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db.gz: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+0029.920 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0029.921 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, wp-content/plugins/updraftplus/includes/google-extensions.php)
+0030.252 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0031.331 (0) Googledrive chunked upload: 100 % uploaded
+0031.334 (0) Google Drive: OK: Archive backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db.gz uploaded in 1.41 seconds
+0031.334 (0) Recording as successfully uploaded: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db.gz
+0031.337 (0) Deleting local file: backup_2024-01-18-2316_High_Art_by_Humans_7c984aa03b69-db.gz: OK
+0031.340 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0031.341 (0) Number of backup sets in history: 2; groups (db): 1
+0031.341 (0) Examining (for databases) backup set with group_id=0, nonce=7c984aa03b69, datestamp=1705619811 (Jan 18 2024 23:16:51)
+0031.342 (0) This backup set is the backup set just made, so will not be deleted.
+0031.342 (0) Examining (for databases) backup set with group_id=0, nonce=12588619a3a2, datestamp=1705534143 (Jan 17 2024 23:29:03)
+0031.342 (0) 1705534143: db: this set includes a database (backup_2024-01-17-2329_High_Art_by_Humans_12588619a3a2-db.gz); db count is now 1
+0031.342 (0) 1705534143: db: over retain limit (1); will delete this database
+0031.342 (0) Delete file: backup_2024-01-17-2329_High_Art_by_Humans_12588619a3a2-db.gz, service=googledrive
+0031.343 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0033.188 (0) Google Drive: backup_2024-01-17-2329_High_Art_by_Humans_12588619a3a2-db.gz: Deletion successful
+0033.191 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0033.192 (0) Number of backup sets in history: 2; groups (files): 1
+0033.193 (0) Examining (for files) backup set with nonce=7c984aa03b69, datestamp=1705619811 (Jan 18 2024 23:16:51)
+0033.193 (0) This backup set is the backup set just made, so will not be deleted.
+0033.193 (0) This backup set is the backup set just made, so will not be deleted.
+0033.193 (0) This backup set is the backup set just made, so will not be deleted.
+0033.193 (0) This backup set is the backup set just made, so will not be deleted.
+0033.194 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.194 (0) Examining (for files) backup set with nonce=12588619a3a2, datestamp=1705534143 (Jan 17 2024 23:29:03)
+0033.195 (0) plugins: over retain limit (1); will delete this file entity
+0033.195 (0) themes: over retain limit (1); will delete this file entity
+0033.195 (0) uploads: over retain limit (1); will delete this file entity
+0033.195 (0) others: over retain limit (1); will delete this file entity
+0033.195 (0) Delete file: backup_2024-01-17-2329_High_Art_by_Humans_12588619a3a2-plugins.zip, service=googledrive
+0033.196 (0) Delete file: backup_2024-01-17-2329_High_Art_by_Humans_12588619a3a2-themes.zip, service=googledrive
+0033.197 (0) Delete file: backup_2024-01-17-2329_High_Art_by_Humans_12588619a3a2-uploads.zip, service=googledrive
+0033.198 (0) Delete file: backup_2024-01-17-2329_High_Art_by_Humans_12588619a3a2-others.zip, service=googledrive
+0033.199 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0034.550 (0) Google Drive: backup_2024-01-17-2329_High_Art_by_Humans_12588619a3a2-others.zip: Deletion successful
+0035.214 (0) Google Drive: backup_2024-01-17-2329_High_Art_by_Humans_12588619a3a2-uploads.zip: Deletion successful
+0036.393 (0) Google Drive: backup_2024-01-17-2329_High_Art_by_Humans_12588619a3a2-themes.zip: Deletion successful
+0037.442 (0) Google Drive: backup_2024-01-17-2329_High_Art_by_Humans_12588619a3a2-plugins.zip: Deletion successful
+0037.445 (0) This backup set is now empty; will remove from history
+0037.446 (0) Deleting log file (log.12588619a3a2.txt)
+0037.447 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0037.450 (0) Resume backup (7c984aa03b69, 0): finish run
+0037.451 (0) Decremented the semaphore (fd) by 1
+0037.453 (0) Semaphore (fd) unlocked
+0037.453 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0037.456 (0) No email will/can be sent - the user has not configured an email address.
+0037.457 (0) The backup apparently succeeded and is now complete
